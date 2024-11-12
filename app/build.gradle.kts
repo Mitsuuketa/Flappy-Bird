@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace = "com.mobdeve.kendy.flappybird"
+    namespace = "com.mobdeve.myflappybird"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.mobdeve.kendy.flappybird"
+        applicationId = "com.mobdeve.myflappybird"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -35,7 +35,9 @@ dependencies {
 
     implementation(libs.appcompat)
     implementation(libs.material)
+    implementation(libs.recyclerview)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
 }
